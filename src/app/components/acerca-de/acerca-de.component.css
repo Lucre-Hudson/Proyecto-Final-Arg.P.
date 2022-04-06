@@ -6,19 +6,37 @@ div{
     text-align: center; 
 }
 /*Foto de Perfil*/
+
 @media (min-width: 576px){
-    #fotoperfil{
+    #fotodeperfil{
         position: absolute;
-        width: 15%;
-        border-radius: 100%;
+        width: 71%;
+        border-radius: 49%;
         box-shadow: 3px 3px 3px grey;
-        left: 3%;
-        top: 600px;
+        left: 29%;
+        top: -122px;
+    }
+}
+@media (max-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 29%;
+        border-radius: 49%;
+        box-shadow: 3px 3px 3px grey;
+        left: 36%;
+        top: -166px;
     }
 }
 
 /*Etiqueta nombre*/
 #nombre{
     font-weight: bold;
+    margin: 2rem auto;
     margin-top: 30%;
+    width: 124px;
+    text-align: center;
+}
+#nombre.p{
+    text-align: center;
+    padding-top: 75px;
 }
