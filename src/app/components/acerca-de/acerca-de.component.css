@@ -10,21 +10,21 @@ div{
 @media (min-width: 576px){
     #fotodeperfil{
         position: absolute;
-        width: 71%;
-        border-radius: 49%;
+        width: 15%;
+        border-radius: 82%;
         box-shadow: 3px 3px 3px grey;
-        left: 29%;
-        top: -122px;
+        left: 4%;
+        top: 450px;
     }
 }
-@media (max-width: 576px){
+@media (max-width: 575px){
     #fotodeperfil{
         position: absolute;
         width: 29%;
-        border-radius: 49%;
+        border-radius: 64%;
         box-shadow: 3px 3px 3px grey;
-        left: 36%;
-        top: -166px;
+        left: 34%;
+        top: 481px;
     }
 }
 
